@@ -1,3 +1,16 @@
 {
-    "C_Cpp.errorSquiggles": "disabled"
-}
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.cwd": "C:\\Users\\DELL\\OneDrive\\Desktop\\c programming",
+    "terminal.integrated.env.windows": {
+      "PATH": "C:\\MinGW\\bin;${env:PATH}"
+    },
+    "code-runner.executorMap": {
+      "c": "gcc -o a.exe $fileName && a.exe"
+    },
+    "code-runner.runInTerminal": true,
+    "files.associations": {
+      "*.txt": "cmake",
+      "random": "c"
+    }
+  }
+  
